@@ -115,3 +115,23 @@ function clearSearchHistory() {
 window.addEventListener('load', clearSearchHistory);
 
 window.addEventListener('load', getCurrentImageOfTheDay);
+const themeBtn = document.getElementById('themeBtn');
+
+function changeTheme () {
+    themeBtn.value = clicked;
+    if (themeBtn.value = clicked){
+        <style>
+            body{Background-color = white;}
+     </style>
+    }
+    else if(themeBtn.value = not-clicked){
+         <style>
+            body{Background-color = black;}
+     </style>
+    }
+    else{
+         <style>
+            body{Background-color = black;}
+     </style>
+    }
+}
